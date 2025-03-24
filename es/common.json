@@ -14,24 +14,24 @@
   "eloScore": "Tu Elo es {{elo}}",
   "eloDescription": "Elo es un sistema de clasificación utilizado para calcular el nivel relativo de habilidad de los jugadores. Cuanto más alto sea tu Elo, más fuerte eres en comparación con otros. Ganar aumenta tu Elo, mientras que perder lo disminuye.",
   "welcomeName": "Bienvenido {{name}}!",
-  "myGames": "Mis juegos",
+  "myGames": "Mis partidas",
   "gameStatus": {
     "available": "Disponible para Jugar",
-    "notStarted": "Juego No Iniciado Aún"
+    "notStarted": "Partida no iniciada"
   },
-  "loadingGames": "Cargando juegos...",
-  "noGamesYet": "Aún no hay juegos. Haz clic en Jugar para crear uno nuevo.",
-  "failedToLoadGames": "No se pudieron cargar los juegos. Por favor, intenta nuevamente.",
-  "armyCompositions": "Composiciones de Ejército",
+  "loadingGames": "Cargando partida...",
+  "noGamesYet": "No hay ninguna partida. Haz clic en Jugar para crear una nueva.",
+  "failedToLoadGames": "No se pudieron cargar las partidas. Por favor, intentalo de nuevo.",
+  "armyCompositions": "Organización de Ejército",
   "account": "Cuenta",
   "scenarioEditor": "Editor de Escenarios",
   "wiki": "Wiki",
   "gameCard": {
-    "title": "Juego {{id}}",
+    "title": "Partida {{id}}",
     "turn": "Turno {{turnNumber}}/{{maxTurn}}"
   },
 
-  "withdrawMessage": "Si te retiras de este juego, contará como una derrota y eso reducirá tu Elo, ¿estás seguro de que deseas retirarte?",
+  "withdrawMessage": "Si te retiras de esta partida, contará como una derrota y eso reducirá tu Elo, ¿estás seguro de que deseas retirarte?",
 
   "loading": "Cargando...",
   "yes": "Sí",
@@ -39,18 +39,18 @@
   "by": "De",
   "logout": "Cerrar sesión",
 
-  "createNewGame": "Crear nuevo juego",
-  "randomGameInfo": "Para los juegos generados aleatoriamente, el juego utilizará el ejército que has creado para el modo de batalla seleccionado. Puedes ver y gestionar tus ejércitos en las <0>Composiciones de Ejército</0>. Si no has creado ejércitos para ese modo aún, se usará un ejército predeterminado.",
-  "selectGameMode": "Selecciona el modo de juego de las opciones a continuación.",
+  "createNewGame": "Crear nuevo partida",
+  "randomGameInfo": "Para las partidas generadas aleatoriamente, el juego utilizará el ejército que has creado para el modo de batalla seleccionado. Puedes ver y gestionar tus ejércitos en las <0>Composiciones de Ejército</0>. Si no has creado ejércitos para ese modo aún, se usará un ejército predeterminado.",
+  "selectGameMode": "Selecciona el modo de juego de las siguientes opciones.",
   "or": "O",
   "cancel": "Cancelar",
 
   "matchmakingQueue": {
     "inQueue": "¡Ahora estás en la cola de emparejamiento! El sistema está buscando otro jugador que haya seleccionado las mismas configuraciones que tú.",
-    "matchFound": "Una vez que se encuentre un emparejamiento, serás redirigido al juego.",
+    "matchFound": "Una vez que se encuentre un emparejamiento, serás redirigido a la partida.",
     "continueMatchmaking": "Incluso si dejas esta página, el proceso de emparejamiento continuará, y serás notificado cuando se haga un emparejamiento.",
     "nextQueueCheck": "Próxima verificación de cola en {{countdown}} segundos.",
-    "onlyClanMembers": "Juega solo con compañeros de la coalición"
+    "onlyClanMembers": "Jugar solo con compañeros de la coalición"
   },
 
   "fastMode": "Modo rápido",
@@ -99,20 +99,20 @@
   },
 
   "scenarioEditorTags": {
-    "tutorialMessage": "No estás seguro de cómo usarlo? No te preocupes, te tenemos cubierto! <tutorialLink>Mirá el tutorial acá.</tutorialLink>"
+    "tutorialMessage": "¿No estás seguro de cómo usarlo? No te preocupes¡ te tenemos cubierto! <tutorialLink>Revisa el tutorial aquí.</tutorialLink>"
   },
 
   "createScenario": "Crear Escenario",
   "loadScenario": "Cargar Escenario",
-  "playOffline": "Jugá offline!",
-  "createOfflineGame": "Crear juego offline",
-  "chooseAScenario": "Elegí un escenario",
+  "playOffline": "¡Jugar offline!",
+  "createOfflineGame": "Crear partida offline",
+  "chooseAScenario": "Elegir un escenario",
   "playerArmy": "Ejército del jugador",
   "botArmy": "Ejército del bot",
   "army": "Ejército",
 
-  "deploymentStateMessage": "Esta es la fase de despliegue. Aprovecha este turno para colocar tus unidades donde quieras dentro de la zona de despliegue. Cuando hayas terminado, envía tus órdenes para aplicar la colocación.",
-  "youAreColor": "Sos el {{color}}!",
+  "deploymentStateMessage": "Esta es la fase de despliegue. Aprovecha este turno para colocar tus unidades donde quieras dentro de la zona de despliegue. Cuando hayas terminado, envía tus órdenes para aplicar el despliegue.",
+  "youAreColor": "Juegas con el {{color}}!",
   "getStarted": "Comenzar",
 
   "colorTag": {
@@ -280,24 +280,24 @@
 
   "clearPlayerUnits": "Borrar unidades del jugador",
   "clearBotUnits": "Borrar unidades del bot",
-  "continueGame": "Continuar juego",
-  "createNewOfflineGame": "Crear nuevo juego offline",
+  "continueGame": "Continuar partida",
+  "createNewOfflineGame": "Crear nueva partida offline",
   "filterBy": "Filtrar por",
   "name": "Nombre",
 
   "retry": "Reintentar",
 
   "networkErrorModal": {
-    "title": "Upa! Se perdió la conexión",
-    "message": "Parece que falló la conexión. No te preocupes! Podés seguir jugando offline."
+    "title": "¡Upa! Se perdió la conexión",
+    "message": "Parece que falló la conexión¡No te preocupes! Puedes seguir jugando offline."
   },
 
   "needsUpdateModal": {
     "title": "Requiere actualización",
-    "message": "Hay una nueva versión de LoB disponible! Actualizá la app para seguir jugando en línea."
+    "message": "¡Hay una nueva versión de LoB disponible! Actualizá la app para seguir jugando en línea."
   },
 
-  "update": "Actualizar!",
+  "update": "¡Actualizar!",
   "yourArmyCompositionsFor": "Tu composición de ejército para",
   "noUnitsYet": "Todavía no hay unidades",
   "armyComposition": "Composición de ejército",
@@ -316,7 +316,7 @@
   "welcomeModal": {
     "title": "Bienvenido a Lines of Battle 👋!",
     "thanks": "Gracias por sumarte, {{name}}!",
-    "p1": "Sos nuevo en <b>Lines of Battle</b>? Te recomiendo empezar con una <offlineLink>partida de práctica offline</offlineLink> contra un bot para familiarizarte con la mecánica del juego y desarrollar tu estrategia en un ambiente relajado.",
+    "p1": "Si eres nuevo en <b>Lines of Battle</b>? Te recomiendo empezar con una <offlineLink>partida de práctica offline</offlineLink> contra un bot para familiarizarte con la mecánica del juego y desarrollar tu estrategia en un ambiente relajado.",
     "p2": "Como el juego todavía está en beta, te invito a unirte al <discordLink>servidor de Discord</discordLink> para conectarte con otros jugadores, encontrar rivales, reportar bugs y compartir tus ideas para ayudar a mejorar la experiencia para todos."
   },
 
@@ -324,9 +324,9 @@
 
   "loadingScreen": {
     "fonts": "Cargando fuentes...",
-    "joiningGame": "Uniéndote al juego...",
+    "joiningGame": "Uniéndote a la partida...",
     "resources": "Cargando recursos...",
-    "fetchingGameData": "Obteniendo datos del juego...",
+    "fetchingGameData": "Obteniendo datos de la partida...",
     "generatingMap": "Generando mapa...",
 
     "tip1": "Las unidades con alta organización reciben poco o ningún daño extra por una carga. Ablanda los objetivos primero con fuego.",
@@ -362,18 +362,18 @@
   },
 
   "selectOrder": "Seleccionar orden",
-  "allowFireWhenMoving": "Permite disparar mientras te movés",
+  "allowFireWhenMoving": "Permite disparar mientras te mueves",
   "meleeDamage": "Daño cuerpo a cuerpo",
   "rangedDamage": "Daño a distancia",
   "orgRegainByHp": "Recuperación de org por HP",
-  "rangedDamageWhenMoving": "Daño a distancia mientras te movés",
+  "rangedDamageWhenMoving": "Daño a distancia mientras te mueves",
   "speed": "Velocidad",
   "speedWhenShooting": "Velocidad al disparar",
   "receivedDamage": "Daño recibido",
   "receivedOrgDamage": "Daño a la org recibido",
   "noModifiers": "Sin modificadores",
   "submitOrders": "Enviar órdenes",
-  "submitOrdersConfirmation": "Estás seguro de que quieres enviar tus órdenes de batalla? Una vez enviadas, no podrás volver atrás.",
+  "submitOrdersConfirmation": "¿Estás seguro de que quieres enviar tus órdenes de batalla? Una vez enviadas, no podrás volver atrás.",
   "players": "Jugadores",
   "menu": "Menú",
   "replayActions": "Repetir acciones",
@@ -397,7 +397,7 @@
 
   "offerDrawModal": {
     "withdrawOffer": "Retirar Oferta",
-    "alreadyWantsDrawMessage": "Ya estás ofreciendo un Empate. Querés retirar esta oferta?",
+    "alreadyWantsDrawMessage": "Ya estás ofreciendo un Empate. ¿Quieres retirar esta oferta?",
     "offerDrawMessage": "Si ofreces un empate, esta opción permanecerá habilitada hasta que la desactives."
   },
 
@@ -442,7 +442,7 @@
   },
 
   "offline": "Offline",
-  "offlineDescription": "Practica contra bots y juega en modo hotseat con amigos en el mismo dispositivo!",
+  "offlineDescription": "¡Practica contra bots y juega en modo hotseat con amigos en el mismo dispositivo!",
 
   "premiumCurrencyLeaderboard": {
     "title": "Clasificación de <premiumCurrency/>",
